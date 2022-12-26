@@ -62,7 +62,7 @@ win = Tk()
 win.geometry("956x700")
 win.title("오늘 뭐하지?")
 
-back = ImageTk.PhotoImage(file = "back.jpg")
+back = ImageTk.PhotoImage(file = "img/back.jpg")
 back_label = Label(win, image = back)
 back_label.place(x=0,y=0)
 
@@ -97,19 +97,19 @@ def change():
     label1.place(x=320,y=10)
     
     global photo1
-    photo1 = ImageTk.PhotoImage(file="pushup.jpg")
+    photo1 = ImageTk.PhotoImage(file="img/pushup.jpg")
 
     global photo2
-    photo2 = ImageTk.PhotoImage(file="press.jpg")
+    photo2 = ImageTk.PhotoImage(file="img/press.jpg")
 
     global photo3
-    photo3 = ImageTk.PhotoImage(file="crench.jpg")
+    photo3 = ImageTk.PhotoImage(file="img/crench.jpg")
 
     global photo4
-    photo4 = ImageTk.PhotoImage(file="squat.jpg")
+    photo4 = ImageTk.PhotoImage(file="img/squat.jpg")
 
     global photo5
-    photo5 = ImageTk.PhotoImage(file="pullup.jpg")
+    photo5 = ImageTk.PhotoImage(file="img/pullup.jpg")
     
 
     
